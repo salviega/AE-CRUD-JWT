@@ -1,1 +1,2 @@
-# AE-CRUD-JWT
+# AE-CRUD JWT
+Aplicación Empresaria: CRUD con JWT (Angular y Springboot)

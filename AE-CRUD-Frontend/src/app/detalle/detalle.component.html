@@ -1,0 +1,18 @@
+<div class="row mt-5" *ngIf="rol">
+    <div class="col-md-4 mx-auto">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              Volver
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>ID: </b>{{rol.id}}</li>
+              <li class="list-group-item"><b>Nombre: </b>{{rol.rolName}}</li>
+              <li class="list-group-item"><b>Descripcion: </b>{{rol.description}}</li>
+            </ul>
+            <div class="card-footer">
+                <button class="btn btn-outline-primary btn-block" (click)="volver()"><i class="fas fa-arrow-alt-circle-left"></i> volver</button>
+            </div>
+        </div>
+        
+    </div>
+</div>
